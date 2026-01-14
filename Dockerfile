@@ -9,7 +9,6 @@ RUN git clone https://github.com/shenwei356/seqkit.git && \
     cd seqkit && \
     #sed -i 's/go 1\.23\.0/go 1.23/' go.mod && \
     go build -ldflags "-s -w" -trimpath -o seqkit ./seqkit \
-    git clone https://github.com/upx/upx.git && \
 
 
 
